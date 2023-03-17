@@ -19,10 +19,4 @@ class PersonTest {
         );
     }
 
-    @Test
-    void failTest(){
-
-    fail();
-    }
-
 }
