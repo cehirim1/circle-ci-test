@@ -11,7 +11,7 @@ class PersonTest {
     void constructorTest() {
 
         Person testMe = new Person("James", "Smith");
-        assertAll("The constructor does not set all fields correctly",
+        assertAll(
                 ()->assertEquals("James", testMe.getFirst()),
                 ()->assertEquals("Smith", testMe.getLast()),
                 ()->assertNull(testMe.getTitle()),
@@ -19,5 +19,10 @@ class PersonTest {
         );
     }
 
+    @Test
+    void failTest(){
+
+    fail();
+    }
 
 }
