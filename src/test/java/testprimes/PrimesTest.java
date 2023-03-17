@@ -1,4 +1,4 @@
-package primes;
+package testprimes;
 
 import org.example.primes.PrimalityChecker;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -10,7 +10,7 @@ public class PrimesTest {
 
     @ParameterizedTest
     @ValueSource(ints={-1,0,1}) //passing values to numbers param to test
-    void isPrimeBoundary(int number) {
+    void testIsPrimeBoundary(int number) {
         PrimalityChecker checker = new PrimalityChecker();
 
         boolean isPrime = checker.isPrime(number);
@@ -19,7 +19,7 @@ public class PrimesTest {
 
     @ParameterizedTest
     @ValueSource(ints={2,31,41})
-    public void validPrimeCheck(int num){
+    public void testValidPrimeCheck(int num){
         PrimalityChecker check = new PrimalityChecker();
         boolean primeVerify = check.isPrime(num);
         assertTrue(check.isPrime(num));

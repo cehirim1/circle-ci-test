@@ -1,4 +1,4 @@
-package names;
+package testnames;
 
 import org.example.names.Person;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PersonTest {
 
     @Test
-    void constructorTest() {
+    void testConstructor() {
 
         Person testMe = new Person("James", "Smith");
         assertAll(
