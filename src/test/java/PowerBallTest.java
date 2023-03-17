@@ -1,5 +1,3 @@
-package testrandom;
-
 import org.example.random.PowerBall;
 import org.junit.jupiter.api.RepeatedTest;
 

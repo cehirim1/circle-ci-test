@@ -1,5 +1,3 @@
-package testmath;
-
 import org.example.math.MyMath;
 import org.junit.jupiter.api.Test;
 

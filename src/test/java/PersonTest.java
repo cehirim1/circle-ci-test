@@ -1,5 +1,3 @@
-package testnames;
-
 import org.example.names.Person;
 import org.junit.jupiter.api.Test;
 
